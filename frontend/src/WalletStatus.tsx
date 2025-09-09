@@ -35,6 +35,7 @@ export function WalletStatus() {
               onMessageAdded={() => setRefreshKey((prev) => prev + 1)}
             />
           )}
+          <UpdateEventTitle />
         </Flex>
       ) : (
         <Text>Wallet not connected</Text>
