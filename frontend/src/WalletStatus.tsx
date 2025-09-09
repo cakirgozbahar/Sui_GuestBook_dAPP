@@ -2,7 +2,7 @@ import { useCurrentAccount } from "@mysten/dapp-kit";
 import { Container, Flex, Heading, Text } from "@radix-ui/themes";
 import CreateEvent from "./CreateEvent";
 import AddMessage from "./AddMessage";
-import { UpdateEventTitle } from "./UpdateEvent";
+import  UpdateEventTitle  from "./UpdateEvent";
 
 import { useState } from "react";
 
